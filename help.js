@@ -75,7 +75,7 @@ window.onload = function () {
   
     //Make sure that the input is actually a number between 1-100
     // and if it is, assign the value to playersGuess variable.
-    // Call the checkGuess function to continue.
+    // Call the checkGuess function to contin.
     const guessSubmission = (guess) => {
       if (isNaN(guess) || guess < 1 || guess > 100) {
         return (result.textContent = "That is an invalid guess.");
